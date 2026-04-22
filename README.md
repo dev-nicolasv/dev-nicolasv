@@ -14,13 +14,13 @@ With over 8 years of end-to-end hardware and firmware experience, I specialize i
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white)
+![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altium&logoColor=white)
 
+* **Hardware & PCB Design:** Altium Designer for industrial-grade multilayer boards and custom hardware integration.
 * **IoT & RF Protocols:** LoRaWAN, XBee/DigiMesh, WiFi, Bluetooth, MQTT.
-* **Industrial Protocols & I/O:** RS485 (Modbus RTU), UART, SPI, I2C, CAN Bus.
-* **Signal Acquisition & Control:** 4-20mA current loops, 0-10V analog reading, precise PID control loop tuning, and industrial DAQ systems.
-* **Specialties:** End-to-end architecture, OTA updates, rigorous debugging, and custom PCB integration.
+* **Industrial Interfaces:** RS485 (Modbus RTU), UART, SPI, I2C, CAN Bus.
+* **Signals & Control:** 4-20mA/0-10V DAQ, precise PID control loops, and low-level hardware troubleshooting.
 
 ---
 
