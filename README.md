@@ -24,6 +24,15 @@ With over 8 years of end-to-end hardware and firmware experience, I specialize i
 
 ---
 
+### 📂 Open-Source Technical Samples (Boilerplates)
+
+*These repositories showcase my coding standards, RTOS management, and industrial implementation:*
+
+* 📡 **[ESP32 LoRaWAN Industrial Node](https://github.com/dev-nicolasv/esp32-lorawan-industrial-node)** - Ultra-low power template with 4-20mA sensor integration and Deep Sleep optimization.
+* 🔄 **[ESP32 Robust OTA Architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)** - Production-ready Over-The-Air (OTA) update architecture featuring secure provisioning and automatic rollback protection.
+
+---
+
 ### 🚀 Featured Industrial & Field Projects
 
 I focus on mission-critical systems where reliability is not optional. Here are some field deployments I've engineered:
