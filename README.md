@@ -47,4 +47,4 @@ Beyond industrial development, I am passionate about sharing knowledge. I regula
 
 Looking for an expert to architect your next IoT product or salvage a failing prototype? Let's discuss your technical requirements.
 
-📫 **Reach out to me on [Upwork](LINK_A_TU_PERFIL_DE_UPWORK) or connect with me on [LinkedIn](LINK_A_TU_LINKEDIN).**
+📫 **Reach out to me on [Upwork](https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1) or connect with me on [LinkedIn](https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/).**
