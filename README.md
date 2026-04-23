@@ -1,6 +1,6 @@
 # Hi there, I'm Nicolás Vásquez Yáñez 👋
 
-### Industrial-Grade Embedded Systems & IoT Engineer | ESP32 | STM32 | Firmware
+### Senior Embedded Systems & IoT | ESP32 | STM32 | Firmware
 
 Stop paying for fragile prototypes. I build robust, production-ready embedded systems and IoT solutions engineered to thrive in demanding industrial environments. 
 
@@ -54,6 +54,6 @@ Beyond industrial development, I am passionate about sharing knowledge. I regula
 
 ### 🤝 Let's Work Together
 
-Looking for an expert to architect your next IoT product or salvage a failing prototype? Let's discuss your technical requirements.
+Looking for an Senior to architect your next IoT product or salvage a failing prototype? Let's discuss your technical requirements.
 
 📫 **Reach out to me on [Upwork](https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1) or connect with me on [LinkedIn](https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/).**
