@@ -1,32 +1,85 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b0f19,35:111827,70:1e293b,100:0f172a&text=Nicolás%20Vásquez%20Yáñez&fontColor=dbeafe&fontSize=42&fontAlignY=38&desc=Senior%20Embedded%20Systems%20%26%20Industrial%20IoT%20Developer&descAlignY=58&descSize=18" alt="Header" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Embedded%20Systems-0f172a?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Industrial%20IoT-111827?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firmware%20Architecture-1e293b?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hardware%20Integration-0f172a?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/PCB%20Design-1e293b?style=for-the-badge&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dev-nicolasv&style=for-the-badge&color=1e3a8a" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/dev-nicolasv?style=for-the-badge&color=0f172a" alt="Followers" />
+  <img src="https://img.shields.io/badge/Location-Viña%20del%20Mar,%20Chile-1e293b?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/Open%20to-Embedded%20%26%20IoT%20Projects-1d4ed8?style=for-the-badge" alt="Open to Work" />
+</p>
+
 # Hi there, I'm Nicolás Vásquez Yáñez 👋
 
-### Senior Embedded Systems & Industrial IoT Developer  
-#### ESP32 | STM32 | LoRaWAN | Firmware Architecture | Hardware Integration | PCB Design
+## Senior Embedded Systems & Industrial IoT Developer  
+### ESP32 | STM32 | LoRaWAN | Firmware Architecture | Hardware Integration | PCB Design
 
-I build **robust embedded systems, industrial IoT devices, and firmware architectures** designed to operate reliably in demanding real-world environments.
+I build **robust embedded systems, industrial IoT devices, and production-oriented firmware architectures** designed to operate reliably in demanding real-world environments.
 
-With over **8 years of end-to-end hardware and firmware experience**, I specialize in taking projects from concept, prototype, and hardware bring-up to field-ready deployment.
+With over **8 years of end-to-end hardware and firmware experience**, I specialize in taking products from **concept and prototype** to **field-ready deployment**.
 
 I do not just write code.  
-I engineer complete embedded solutions that can survive noise, remote operation, constrained hardware, harsh environments, and strict industrial requirements.
+I engineer **complete embedded solutions** that can survive:
+
+- noisy signals  
+- remote operation  
+- industrial constraints  
+- low-power requirements  
+- harsh environments  
+- firmware recovery scenarios  
+
+> **Embedded firmware is not only about making hardware work.  
+> It is about making it keep working in the real world.**
 
 ---
 
 ## 🚀 What I Build
 
-- Industrial IoT telemetry nodes
-- ESP32 and STM32 embedded firmware
-- LoRaWAN sensor devices and gateways
-- OTA firmware update architectures
-- RS485 / Modbus RTU industrial systems
-- 4–20 mA and 0–10 V signal acquisition
-- Battery and solar-powered embedded devices
-- Custom hardware and PCB-integrated firmware
-- Field diagnostics and recovery systems
-- Prototype rescue and production hardening
+<table>
+<tr>
+<td width="33%">
 
-> Embedded firmware is not only about making hardware work.  
-> It is about making it keep working in the real world.
+### ⚙️ Embedded Firmware
+- ESP32 / STM32 development  
+- Modular firmware architecture  
+- Drivers / HAL / RTOS  
+- State machines  
+- Low-level debugging  
+- OTA-ready firmware  
+
+</td>
+<td width="33%">
+
+### 📡 Industrial IoT
+- LoRaWAN telemetry nodes  
+- RS485 / Modbus RTU systems  
+- MQTT communication  
+- Gateway integration  
+- Remote monitoring  
+- Field diagnostics  
+
+</td>
+<td width="33%">
+
+### 🔌 Hardware & PCB
+- PCB-integrated firmware  
+- Custom hardware bring-up  
+- 4–20 mA / 0–10 V acquisition  
+- Industrial I/O  
+- Protection and signal conditioning  
+- Board-level validation  
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -34,56 +87,69 @@ I engineer complete embedded solutions that can survive noise, remote operation,
 
 ### Firmware & Embedded Systems
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-004482?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded%20C-1E293B?style=for-the-badge)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge)
-![RTOS](https://img.shields.io/badge/RTOS-0F172A?style=for-the-badge)
-![State Machines](https://img.shields.io/badge/State%20Machines-334155?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-1d4ed8?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Embedded%20C-1e293b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RTOS-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/State%20Machines-334155?style=for-the-badge" />
+</p>
 
 ### Microcontrollers & Platforms
 
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Espressif](https://img.shields.io/badge/Espressif-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/Espressif-111827?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arduino-0f766e?style=for-the-badge&logo=arduino&logoColor=white" />
+</p>
 
 ### Development Tools
 
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white)
-![ESP-IDF](https://img.shields.io/badge/ESP--IDF-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP--IDF-000000?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-1d4ed8?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-1f2937?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-0b0f19?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
 ### Hardware & PCB Design
 
-![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white)
-![PCB Design](https://img.shields.io/badge/PCB%20Design-166534?style=for-the-badge)
-![Hardware Bring-Up](https://img.shields.io/badge/Hardware%20Bring--Up-14532D?style=for-the-badge)
-![Multilayer PCB](https://img.shields.io/badge/Multilayer%20PCB-15803D?style=for-the-badge)
-![Industrial Hardware](https://img.shields.io/badge/Industrial%20Hardware-166534?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/Altium%20Designer-6b7280?style=for-the-badge&logo=altiumdesigner&logoColor=white" />
+  <img src="https://img.shields.io/badge/KiCad-1d4ed8?style=for-the-badge&logo=kicad&logoColor=white" />
+  <img src="https://img.shields.io/badge/PCB%20Design-14532d?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Multilayer%20PCB-166534?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hardware%20Bring--Up-1f2937?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Industrial%20Hardware-334155?style=for-the-badge" />
+</p>
 
 ### IoT, RF & Connectivity
 
-![LoRaWAN](https://img.shields.io/badge/LoRaWAN-6B21A8?style=for-the-badge&logo=thethingsnetwork&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![WiFi](https://img.shields.io/badge/WiFi-2563EB?style=for-the-badge)
-![Bluetooth](https://img.shields.io/badge/Bluetooth-0A66C2?style=for-the-badge&logo=bluetooth&logoColor=white)
-![XBee](https://img.shields.io/badge/XBee%20%2F%20DigiMesh-F59E0B?style=for-the-badge)
-![UART Modems](https://img.shields.io/badge/UART%20Modems-475569?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/LoRaWAN-4c1d95?style=for-the-badge&logo=thethingsnetwork&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-581c87?style=for-the-badge&logo=mqtt&logoColor=white" />
+  <img src="https://img.shields.io/badge/WiFi-1d4ed8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Bluetooth-1e40af?style=for-the-badge&logo=bluetooth&logoColor=white" />
+  <img src="https://img.shields.io/badge/XBee%20%2F%20DigiMesh-92400e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UART%20Modems-475569?style=for-the-badge" />
+</p>
 
 ### Industrial Interfaces & Signals
 
-![RS485](https://img.shields.io/badge/RS485-1E293B?style=for-the-badge)
-![Modbus RTU](https://img.shields.io/badge/Modbus%20RTU-334155?style=for-the-badge)
-![UART](https://img.shields.io/badge/UART-475569?style=for-the-badge)
-![SPI](https://img.shields.io/badge/SPI-64748B?style=for-the-badge)
-![I2C](https://img.shields.io/badge/I2C-64748B?style=for-the-badge)
-![CAN Bus](https://img.shields.io/badge/CAN%20Bus-0F172A?style=for-the-badge)
-![4-20mA](https://img.shields.io/badge/4--20mA-14532D?style=for-the-badge)
-![0-10V](https://img.shields.io/badge/0--10V-166534?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/RS485-1e293b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Modbus%20RTU-334155?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UART-475569?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SPI-64748b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/I2C-64748b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CAN%20Bus-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/4--20mA-14532d?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/0--10V-166534?style=for-the-badge" />
+</p>
 
 ---
 
@@ -137,14 +203,16 @@ flowchart LR
 
 These repositories showcase my coding standards, embedded architecture, RTOS management, industrial interfaces, and implementation style.
 
----
+<p align="center">
+  <a href="https://github.com/dev-nicolasv/esp32-lorawan-industrial-node">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-lorawan-industrial-node&theme=github_dark&hide_border=true&border_radius=12" />
+  </a>
+  <a href="https://github.com/dev-nicolasv/esp32-robust-ota-architecture">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-robust-ota-architecture&theme=github_dark&hide_border=true&border_radius=12" />
+  </a>
+</p>
 
 ### 📡 ESP32 LoRaWAN Industrial Node
-
-[![ESP32 LoRaWAN Industrial Node](https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-lorawan-industrial-node&theme=tokyonight&hide_border=true&border_radius=12)](https://github.com/dev-nicolasv/esp32-lorawan-industrial-node)
-
-Ultra-low power industrial telemetry boilerplate using:
-
 - ESP32
 - Seeed LoRa-E5 through UART AT commands
 - ADS1115 analog acquisition
@@ -154,14 +222,7 @@ Ultra-low power industrial telemetry boilerplate using:
 
 **Architecture:** wake → measure → encode → uplink → sleep.
 
----
-
 ### 🔄 ESP32 Robust OTA Architecture
-
-[![ESP32 Robust OTA Architecture](https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-robust-ota-architecture&theme=tokyonight&hide_border=true&border_radius=12)](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)
-
-Production-oriented OTA firmware architecture featuring:
-
 - FreeRTOS task isolation
 - PID control task separation
 - HTTPS firmware download
@@ -190,61 +251,80 @@ I focus on mission-critical systems where reliability is not optional.
 
 ## ⚙️ Engineering Capabilities
 
-### Embedded Firmware
+<table>
+<tr>
+<td width="50%">
 
-- Modular C/C++ firmware architecture
-- ESP32 and STM32 development
-- RTOS task separation and scheduling
-- Deterministic state machines
-- Watchdog-aware design
-- Driver development and hardware abstraction
-- Serial communication and binary protocols
-- Peripheral integration and low-level debugging
+### Embedded Firmware
+- Modular C/C++ firmware architecture  
+- ESP32 and STM32 development  
+- RTOS task separation and scheduling  
+- Deterministic state machines  
+- Watchdog-aware design  
+- Driver development and hardware abstraction  
+- Serial communication and binary protocols  
+- Peripheral integration and low-level debugging  
+
+</td>
+<td width="50%">
 
 ### Industrial IoT
+- LoRaWAN telemetry nodes  
+- UART AT modem integration  
+- MQTT communication  
+- RS485 and Modbus RTU devices  
+- Sensor telemetry pipelines  
+- Remote monitoring systems  
+- Compact payload encoding  
+- Cloud and gateway integration  
 
-- LoRaWAN telemetry nodes
-- UART AT modem integration
-- MQTT communication
-- RS485 and Modbus RTU devices
-- Sensor telemetry pipelines
-- Remote monitoring systems
-- Compact payload encoding
-- Cloud and gateway integration
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ### Hardware & PCB
+- Schematic and PCB design support  
+- Altium Designer and KiCad workflows  
+- Industrial-grade board integration  
+- Analog signal conditioning  
+- 4–20 mA and 0–10 V acquisition  
+- Relay, digital I/O, and power-stage integration  
+- Hardware bring-up and validation  
+- Board-level troubleshooting  
 
-- Schematic and PCB design support
-- Industrial-grade board integration
-- Analog signal conditioning
-- 4–20 mA and 0–10 V acquisition
-- Relay, digital I/O, and power-stage integration
-- Hardware bring-up and validation
-- Board-level troubleshooting
+</td>
+<td width="50%">
 
 ### Reliability & Field Operation
+- OTA firmware update flows  
+- Rollback-safe firmware deployment  
+- Runtime fault recovery  
+- Error reporting and diagnostics  
+- Low-power telemetry cycles  
+- Battery and solar operation  
+- Field commissioning support  
 
-- OTA firmware update flows
-- Rollback-safe firmware deployment
-- Runtime fault recovery
-- Error reporting and diagnostics
-- Low-power telemetry cycles
-- Battery and solar operation
-- Field commissioning support
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📊 GitHub Metrics
 
-![Nicolás GitHub Stats](https://github-readme-stats.vercel.app/api?username=dev-nicolasv&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dev-nicolasv&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8)
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=dev-nicolasv&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&include_all_commits=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-nicolasv&layout=compact&theme=github_dark&hide_border=true&border_radius=12&langs_count=8" />
+</p>
 
 ---
 
 ## 📈 Recent GitHub Activity
 
-![Nicolás GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dev-nicolasv&theme=tokyo-night&hide_border=true&radius=12)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dev-nicolasv&theme=github-dark&hide_border=true&radius=12" width="100%" />
+</p>
 
 ---
 
@@ -294,9 +374,17 @@ Looking for a senior embedded systems developer to architect your next IoT produ
 
 Let's discuss your technical requirements.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolás%20Vásquez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/)
-[![Upwork](https://img.shields.io/badge/Upwork-Embedded%20IoT%20Developer-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1)
-[![GitHub](https://img.shields.io/badge/GitHub-dev--nicolasv-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dev-nicolasv)
+<p align="center">
+  <a href="https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/">
+    <img src="https://img.shields.io/badge/LinkedIn-Nicolás%20Vásquez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1">
+    <img src="https://img.shields.io/badge/Upwork-Embedded%20IoT%20Developer-15803d?style=for-the-badge&logo=upwork&logoColor=white" />
+  </a>
+  <a href="https://github.com/dev-nicolasv">
+    <img src="https://img.shields.io/badge/GitHub-dev--nicolasv-0b0f19?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -304,15 +392,18 @@ Let's discuss your technical requirements.
 
 Embedded systems fail in the details:
 
-- Bad power design
-- Noisy signals
-- Poor recovery logic
-- Weak OTA strategy
-- Unclear diagnostics
-- Fragile prototypes
-- Untested edge cases
+- bad power design  
+- noisy signals  
+- poor recovery logic  
+- weak OTA strategy  
+- unclear diagnostics  
+- fragile prototypes  
+- untested edge cases  
 
 My job is to design firmware and hardware integration that anticipates those problems before the product reaches the field.
 
 **Build it. Validate it. Deploy it. Keep it running.**
-````
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0b0f19,35:111827,70:1e293b,100:0f172a" alt="Footer" />
+</p>
