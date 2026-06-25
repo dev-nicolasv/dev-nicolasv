@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0b0f19,35:111827,70:1e293b,100:0f172a&text=Nicolás%20Vásquez%20Yáñez&fontColor=dbeafe&fontSize=42&fontAlignY=38&desc=Senior%20Embedded%20Systems%20%26%20Industrial%20IoT%20Developer&descAlignY=58&descSize=18" alt="Header" />
+  <img src="./assets/embedded-industrial-banner.svg" alt="Nicolás Vásquez Yáñez - Embedded Systems and Industrial IoT" width="100%" />
 </p>
 
 <p align="center">
@@ -27,14 +27,7 @@ I build **robust embedded systems, industrial IoT devices, and production-orient
 With over **8 years of end-to-end hardware and firmware experience**, I specialize in taking products from **concept and prototype** to **field-ready deployment**.
 
 I do not just write code.  
-I engineer **complete embedded solutions** that can survive:
-
-- noisy signals  
-- remote operation  
-- industrial constraints  
-- low-power requirements  
-- harsh environments  
-- firmware recovery scenarios  
+I engineer **complete embedded solutions** that can survive noisy signals, remote operation, industrial constraints, low-power requirements, harsh environments, and firmware recovery scenarios.
 
 > **Embedded firmware is not only about making hardware work.  
 > It is about making it keep working in the real world.**
@@ -48,34 +41,34 @@ I engineer **complete embedded solutions** that can survive:
 <td width="33%">
 
 ### ⚙️ Embedded Firmware
-- ESP32 / STM32 development  
-- Modular firmware architecture  
-- Drivers / HAL / RTOS  
-- State machines  
-- Low-level debugging  
-- OTA-ready firmware  
+- ESP32 / STM32 development
+- Modular firmware architecture
+- Drivers / HAL / RTOS
+- Deterministic state machines
+- Low-level debugging
+- OTA-ready firmware
 
 </td>
 <td width="33%">
 
 ### 📡 Industrial IoT
-- LoRaWAN telemetry nodes  
-- RS485 / Modbus RTU systems  
-- MQTT communication  
-- Gateway integration  
-- Remote monitoring  
-- Field diagnostics  
+- LoRaWAN telemetry nodes
+- RS485 / Modbus RTU systems
+- MQTT communication
+- Gateway integration
+- Remote monitoring
+- Field diagnostics
 
 </td>
 <td width="33%">
 
 ### 🔌 Hardware & PCB
-- PCB-integrated firmware  
-- Custom hardware bring-up  
-- 4–20 mA / 0–10 V acquisition  
-- Industrial I/O  
-- Protection and signal conditioning  
-- Board-level validation  
+- PCB-integrated firmware
+- Altium / KiCad workflows
+- 4–20 mA / 0–10 V acquisition
+- Industrial I/O
+- Protection and signal conditioning
+- Board-level validation
 
 </td>
 </tr>
@@ -204,12 +197,8 @@ flowchart LR
 These repositories showcase my coding standards, embedded architecture, RTOS management, industrial interfaces, and implementation style.
 
 <p align="center">
-  <a href="https://github.com/dev-nicolasv/esp32-lorawan-industrial-node">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-lorawan-industrial-node&theme=github_dark&hide_border=true&border_radius=12" />
-  </a>
-  <a href="https://github.com/dev-nicolasv/esp32-robust-ota-architecture">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-robust-ota-architecture&theme=github_dark&hide_border=true&border_radius=12" />
-  </a>
+  <a href="https://github.com/dev-nicolasv/esp32-lorawan-industrial-node"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-lorawan-industrial-node&theme=github_dark&hide_border=true&border_radius=12" /></a>
+  <a href="https://github.com/dev-nicolasv/esp32-robust-ota-architecture"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dev-nicolasv&repo=esp32-robust-ota-architecture&theme=github_dark&hide_border=true&border_radius=12" /></a>
 </p>
 
 ### 📡 ESP32 LoRaWAN Industrial Node
@@ -256,27 +245,27 @@ I focus on mission-critical systems where reliability is not optional.
 <td width="50%">
 
 ### Embedded Firmware
-- Modular C/C++ firmware architecture  
-- ESP32 and STM32 development  
-- RTOS task separation and scheduling  
-- Deterministic state machines  
-- Watchdog-aware design  
-- Driver development and hardware abstraction  
-- Serial communication and binary protocols  
-- Peripheral integration and low-level debugging  
+- Modular C/C++ firmware architecture
+- ESP32 and STM32 development
+- RTOS task separation and scheduling
+- Deterministic state machines
+- Watchdog-aware design
+- Driver development and hardware abstraction
+- Serial communication and binary protocols
+- Peripheral integration and low-level debugging
 
 </td>
 <td width="50%">
 
 ### Industrial IoT
-- LoRaWAN telemetry nodes  
-- UART AT modem integration  
-- MQTT communication  
-- RS485 and Modbus RTU devices  
-- Sensor telemetry pipelines  
-- Remote monitoring systems  
-- Compact payload encoding  
-- Cloud and gateway integration  
+- LoRaWAN telemetry nodes
+- UART AT modem integration
+- MQTT communication
+- RS485 and Modbus RTU devices
+- Sensor telemetry pipelines
+- Remote monitoring systems
+- Compact payload encoding
+- Cloud and gateway integration
 
 </td>
 </tr>
@@ -284,26 +273,26 @@ I focus on mission-critical systems where reliability is not optional.
 <td width="50%">
 
 ### Hardware & PCB
-- Schematic and PCB design support  
-- Altium Designer and KiCad workflows  
-- Industrial-grade board integration  
-- Analog signal conditioning  
-- 4–20 mA and 0–10 V acquisition  
-- Relay, digital I/O, and power-stage integration  
-- Hardware bring-up and validation  
-- Board-level troubleshooting  
+- Schematic and PCB design support
+- Altium Designer and KiCad workflows
+- Industrial-grade board integration
+- Analog signal conditioning
+- 4–20 mA and 0–10 V acquisition
+- Relay, digital I/O, and power-stage integration
+- Hardware bring-up and validation
+- Board-level troubleshooting
 
 </td>
 <td width="50%">
 
 ### Reliability & Field Operation
-- OTA firmware update flows  
-- Rollback-safe firmware deployment  
-- Runtime fault recovery  
-- Error reporting and diagnostics  
-- Low-power telemetry cycles  
-- Battery and solar operation  
-- Field commissioning support  
+- OTA firmware update flows
+- Rollback-safe firmware deployment
+- Runtime fault recovery
+- Error reporting and diagnostics
+- Low-power telemetry cycles
+- Battery and solar operation
+- Field commissioning support
 
 </td>
 </tr>
@@ -355,16 +344,7 @@ I regularly conduct online workshops and teach robotics to kids and teenagers, t
 
 ## 🧰 Repository Quality Principles
 
-When I publish technical repositories, I aim to include:
-
-- Clear architecture overview
-- Hardware wiring notes
-- PlatformIO build instructions
-- Industrial use-case explanation
-- Payload format documentation
-- Commissioning notes
-- Security and operational considerations
-- Future production-hardening roadmap
+When I publish technical repositories, I aim to include clear architecture overviews, hardware wiring notes, PlatformIO build instructions, payload documentation, commissioning notes, operational considerations, and future production-hardening roadmaps.
 
 ---
 
@@ -375,35 +355,21 @@ Looking for a senior embedded systems developer to architect your next IoT produ
 Let's discuss your technical requirements.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/">
-    <img src="https://img.shields.io/badge/LinkedIn-Nicolás%20Vásquez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1">
-    <img src="https://img.shields.io/badge/Upwork-Embedded%20IoT%20Developer-15803d?style=for-the-badge&logo=upwork&logoColor=white" />
-  </a>
-  <a href="https://github.com/dev-nicolasv">
-    <img src="https://img.shields.io/badge/GitHub-dev--nicolasv-0b0f19?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/nicol%C3%A1s-v%C3%A1squez-y%C3%A1%C3%B1ez-9b8684151/"><img src="https://img.shields.io/badge/LinkedIn-Nicolás%20Vásquez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.upwork.com/freelancers/~01cc5ecb54a0f95fcc?viewMode=1"><img src="https://img.shields.io/badge/Upwork-Embedded%20IoT%20Developer-15803d?style=for-the-badge&logo=upwork&logoColor=white" /></a>
+  <a href="https://github.com/dev-nicolasv"><img src="https://img.shields.io/badge/GitHub-dev--nicolasv-0b0f19?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
 
 ## ⚡ Engineering Philosophy
 
-Embedded systems fail in the details:
-
-- bad power design  
-- noisy signals  
-- poor recovery logic  
-- weak OTA strategy  
-- unclear diagnostics  
-- fragile prototypes  
-- untested edge cases  
+Embedded systems fail in the details: bad power design, noisy signals, poor recovery logic, weak OTA strategy, unclear diagnostics, fragile prototypes, and untested edge cases.
 
 My job is to design firmware and hardware integration that anticipates those problems before the product reaches the field.
 
 **Build it. Validate it. Deploy it. Keep it running.**
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0b0f19,35:111827,70:1e293b,100:0f172a" alt="Footer" />
+  <img src="./assets/footer-industrial.svg" alt="Embedded systems engineered for the real world" width="100%" />
 </p>
