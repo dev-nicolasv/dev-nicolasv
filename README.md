@@ -176,6 +176,66 @@ Diagnostics
 
 ---
 
+## 📊 Live GitHub Engineering Metrics
+
+<table>
+<tr>
+<td width="50%">
+
+### 🗓️ Isometric Commit Calendar
+
+<p align="center">
+  <img src="./metrics/metrics.isocalendar.svg" alt="Isometric commit calendar" width="100%" />
+</p>
+
+</td>
+<td width="50%">
+
+### 🈷️ Languages Activity
+
+<p align="center">
+  <img src="./metrics/metrics.languages.svg" alt="Languages activity" width="100%" />
+</p>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <sub>
+    Dynamic metrics generated with GitHub Actions. Language metrics reflect public repositories and visible contribution activity.
+  </sub>
+</p>
+
+---
+
+## 📌 Technical Topics
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧩 Starred Topics — Icons
+
+<p align="center">
+  <img src="./metrics/metrics.topics.icons.svg" alt="Starred topics with icons" width="100%" />
+</p>
+
+</td>
+<td width="50%">
+
+### 🏷️ Starred Topics — Labels
+
+<p align="center">
+  <img src="./metrics/metrics.topics.labels.svg" alt="Starred topics with labels" width="100%" />
+</p>
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🛡️ Firmware Reliability Matrix
 
 | Layer | What I Implement |
@@ -297,17 +357,30 @@ Production-oriented OTA firmware architecture focused on:
 
 ---
 
-## 📊 Public GitHub Language Snapshot
+## 💼 Professional Collaboration
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-nicolasv&layout=compact&theme=github_dark&hide_border=true&border_radius=12&langs_count=8" alt="Most Used Languages" />
-</p>
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
-  <sub>
-    Public language stats only reflect repositories currently visible on GitHub. Most industrial firmware and hardware work may live in private repositories, internal repositories, or client projects.
-  </sub>
-</p>
+### 🧪 Prototype Rescue
+
+I can help when an embedded prototype is unstable, undocumented, power-sensitive, or difficult to scale.
+
+**Focus:** debugging, architecture cleanup, firmware stabilization, and validation.
+
+</td>
+<td width="50%">
+
+### 🏭 Industrial Deployment
+
+I can support embedded products that need to move from lab testing to field deployment.
+
+**Focus:** OTA, diagnostics, telemetry, hardware integration, and reliability.
+
+</td>
+</tr>
+</table>
 
 ---
 
