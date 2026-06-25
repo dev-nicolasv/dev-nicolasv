@@ -1,4 +1,3 @@
-````markdown
 # Hi there, I'm Nicolás Vásquez Yáñez 👋
 
 ### Senior Embedded Systems & Industrial IoT Developer  
