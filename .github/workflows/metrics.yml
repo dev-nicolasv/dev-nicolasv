@@ -1,0 +1,64 @@
+name: GitHub Profile Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Isometric commit calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Languages activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 6
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 400
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake,
+            shell, gnuplot
+
+      - name: Starred topics icons
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.topics.icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: starred
+          plugin_topics_limit: 0
+
+      - name: Starred topics labels
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.topics.labels.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: labels
+          plugin_topics_sort: activity
+          plugin_topics_limit: 16
