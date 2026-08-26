@@ -45,7 +45,7 @@ These projects represent the kind of system-level work I value most: translating
 **Problem:** update firmware without allowing network work to compromise critical control behavior.<br>
 **Architecture:** isolated FreeRTOS tasks, HTTPS download, SHA-256 validation, dual OTA partitions, watchdog-aware execution, and rollback protection.<br>
 **Constraint:** keep the control path deterministic while update and recovery logic run independently.<br>
-**Evidence:** [open reference architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture). Its validation documentation is being expanded before any production-ready claim.
+**Evidence:** [public reference architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture). Its validation documentation and license definition are being expanded before any production-ready or open-source claim.
 
 <details>
 <summary><strong>More public field work</strong></summary>
@@ -67,10 +67,10 @@ These projects represent the kind of system-level work I value most: translating
 
 **Core platforms:** ESP32, STM32, C/C++, FreeRTOS, ESP-IDF, PlatformIO, LoRaWAN, MQTT, WiFi, BLE, UART, SPI, I2C, CAN, XBee/DigiMesh, Altium Designer, and KiCad.
 
-## Open-source lab
+## Public engineering lab
 
 - **[esp32-lorawan-industrial-node](https://github.com/dev-nicolasv/esp32-lorawan-industrial-node)** - a low-power industrial telemetry reference built around 4-20 mA acquisition and LoRaWAN uplink.
-- **[esp32-robust-ota-architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)** - a reference for separating critical control, download, validation, and recovery concerns.
+- **[esp32-robust-ota-architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)** - a public reference for separating critical control, download, validation, and recovery concerns; its license is still pending.
 
 Project descriptions in this profile are intentionally static and readable. The important information does not depend on third-party stat cards, counters, or live image services.
 

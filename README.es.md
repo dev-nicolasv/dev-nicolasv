@@ -45,7 +45,7 @@ Estos proyectos representan el tipo de trabajo sistémico que más valoro: trans
 **Problema:** actualizar firmware sin permitir que el trabajo de red comprometa el comportamiento del control crítico.<br>
 **Arquitectura:** tareas FreeRTOS aisladas, descarga HTTPS, validación SHA-256, particiones OTA duales, ejecución compatible con watchdog y protección mediante rollback.<br>
 **Restricción:** mantener determinista la ruta de control mientras la actualización y recuperación se ejecutan de forma independiente.<br>
-**Evidencia:** [arquitectura de referencia abierta](https://github.com/dev-nicolasv/esp32-robust-ota-architecture). Su documentación de validación sigue ampliándose antes de afirmar que está lista para producción.
+**Evidencia:** [arquitectura de referencia pública](https://github.com/dev-nicolasv/esp32-robust-ota-architecture). Su documentación de validación y definición de licencia siguen ampliándose antes de afirmar que está lista para producción o que es open source.
 
 <details>
 <summary><strong>Más trabajo público en terreno</strong></summary>
@@ -67,10 +67,10 @@ Estos proyectos representan el tipo de trabajo sistémico que más valoro: trans
 
 **Plataformas y tecnologías:** ESP32, STM32, C/C++, FreeRTOS, ESP-IDF, PlatformIO, LoRaWAN, MQTT, WiFi, BLE, UART, SPI, I2C, CAN, XBee/DigiMesh, Altium Designer y KiCad.
 
-## Laboratorio open source
+## Laboratorio público de ingeniería
 
 - **[esp32-lorawan-industrial-node](https://github.com/dev-nicolasv/esp32-lorawan-industrial-node)** - referencia de telemetría industrial de bajo consumo construida alrededor de adquisición 4-20 mA y uplink LoRaWAN.
-- **[esp32-robust-ota-architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)** - referencia para separar las responsabilidades de control crítico, descarga, validación y recuperación.
+- **[esp32-robust-ota-architecture](https://github.com/dev-nicolasv/esp32-robust-ota-architecture)** - referencia pública para separar las responsabilidades de control crítico, descarga, validación y recuperación; su licencia sigue pendiente.
 
 Las descripciones de proyectos de este perfil son intencionalmente estáticas y legibles. La información importante no depende de tarjetas estadísticas, contadores o servicios externos de imágenes.
 
