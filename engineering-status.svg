@@ -36,7 +36,7 @@
   <g transform="translate(900 35)">
     <circle cx="0" cy="-4" r="5" fill="#2DD4BF" class="pulse-dot"/>
     <text x="17" y="0" class="sync">PUBLIC DATA</text>
-    <text x="264" y="0" text-anchor="end" class="sync">SYNC 2026-08-25 UTC</text>
+    <text x="264" y="0" text-anchor="end" class="sync">SYNC 2026-08-26 UTC</text>
   </g>
   <path d="M36 91 H1164" stroke="#244253"/>
   <g transform="translate(36 112)">
@@ -46,7 +46,7 @@
     <text x="78" y="34" class="title">LORAWAN INDUSTRIAL NODE</text>
     <text x="78" y="61" class="path">4-20 mA -&gt; ADC -&gt; ESP32 -&gt; LoRaWAN</text>
     <text x="1050" y="32" text-anchor="end" class="classify">FIELD NODE</text>
-    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 22 APR 2026</text>
+    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 26 AUG 2026</text>
     <g transform="translate(78 70)"><rect width="138" height="30" rx="8" fill="#2DD4BF" fill-opacity="0.11" stroke="#2DD4BF" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#2DD4BF">CI  PASS</text></g>
     <g transform="translate(230 70)"><rect width="258" height="30" rx="8" fill="#22D3EE" fill-opacity="0.11" stroke="#22D3EE" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#22D3EE">RELEASE  release-pro-v1.0.0</text></g>
     <g transform="translate(502 70)"><rect width="226" height="30" rx="8" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#A78BFA">MIT</text></g>
@@ -59,7 +59,7 @@
     <text x="78" y="34" class="title">ROBUST OTA ARCHITECTURE</text>
     <text x="78" y="61" class="path">CONTROL || UPDATE -&gt; SHA-256 -&gt; A/B -&gt; ROLLBACK</text>
     <text x="1050" y="32" text-anchor="end" class="classify">REFERENCE</text>
-    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 22 APR 2026</text>
+    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 26 AUG 2026</text>
     <g transform="translate(78 70)"><rect width="138" height="30" rx="8" fill="#2DD4BF" fill-opacity="0.11" stroke="#2DD4BF" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#2DD4BF">CI  PASS</text></g>
     <g transform="translate(230 70)"><rect width="258" height="30" rx="8" fill="#F59E0B" fill-opacity="0.11" stroke="#F59E0B" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#F59E0B">RELEASE  v1.0.0</text></g>
     <g transform="translate(502 70)"><rect width="226" height="30" rx="8" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#A78BFA">LICENSE PENDING</text></g>
