@@ -1,0 +1,70 @@
+name: Update engineering status
+
+on:
+  schedule:
+    - cron: "17 08 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: engineering-status-output
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Generate and publish Field Ops status
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Verify deterministic offline renderer
+        run: python3 -m unittest tests/test_update_engineering_status.py
+
+      - name: Generate status from public GitHub metadata
+        env:
+          STATUS_SVG: ${{ runner.temp }}/engineering-status.svg
+        run: python3 scripts/update_engineering_status.py --output "$STATUS_SVG"
+
+      - name: Publish only the SVG to output
+        env:
+          STATUS_SVG: ${{ runner.temp }}/engineering-status.svg
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          publish_dir="$(mktemp -d "${RUNNER_TEMP}/engineering-status-output.XXXXXX")"
+          cleanup() {
+            git worktree remove --force "$publish_dir" >/dev/null 2>&1 || true
+            rm -rf -- "$publish_dir"
+          }
+          trap cleanup EXIT
+
+          if git ls-remote --exit-code --heads origin refs/heads/output >/dev/null 2>&1; then
+            git fetch --no-tags origin refs/heads/output:refs/remotes/origin/output
+            git worktree add --detach "$publish_dir" refs/remotes/origin/output
+            git -C "$publish_dir" switch -C output
+          else
+            git worktree add --detach "$publish_dir" HEAD
+            git -C "$publish_dir" switch --orphan output
+          fi
+
+          install -m 0644 "$STATUS_SVG" "$publish_dir/engineering-status.svg"
+          git -C "$publish_dir" add -- engineering-status.svg
+
+          if git -C "$publish_dir" diff --cached --quiet; then
+            echo "Engineering status is already current."
+            exit 0
+          fi
+
+          git -C "$publish_dir" commit -m "chore: refresh engineering status"
+          git -C "$publish_dir" push origin HEAD:refs/heads/output

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
   <title id="title">NV Field Reliability Console - light theme</title>
-  <desc id="desc">Light industrial firmware profile banner. A signal travels from sensor to microcontroller, real-time operating system, communications link, and field deployment.</desc>
+  <desc id="desc">Light industrial firmware profile banner. An animated signal pulse travels from sensor to microcontroller, real-time operating system, communications link, and field deployment. Motion stops when reduced motion is preferred.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F6F8FB"/>
@@ -27,6 +27,40 @@
     <marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
       <path d="M0 0L8 4L0 8Z" fill="#2563EB"/>
     </marker>
+    <style>
+      .signal-pulse {
+        animation: signal-travel 7.2s linear infinite;
+        stroke-dasharray: 78 457;
+      }
+      .heartbeat {
+        animation: heartbeat-trace 3.2s ease-out infinite;
+        stroke-dasharray: 82;
+      }
+      .live-dot {
+        animation: status-beat 3.2s ease-in-out infinite;
+      }
+      @keyframes signal-travel {
+        to { stroke-dashoffset: -535; }
+      }
+      @keyframes heartbeat-trace {
+        0%, 20% { opacity: 0.28; stroke-dashoffset: 82; }
+        48%, 100% { opacity: 1; stroke-dashoffset: 0; }
+      }
+      @keyframes status-beat {
+        0%, 38%, 62%, 100% { opacity: 0.45; }
+        48%, 54% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .signal-pulse,
+        .heartbeat,
+        .live-dot {
+          animation: none;
+        }
+        .signal-pulse { opacity: 0.5; }
+        .heartbeat,
+        .live-dot { opacity: 1; }
+      }
+    </style>
   </defs>
 
   <rect width="1600" height="460" rx="26" fill="url(#background)"/>
@@ -37,7 +71,7 @@
     <g transform="translate(70 48)">
       <rect width="516" height="34" rx="17" fill="#087E8B" opacity="0.08"/>
       <text x="18" y="23" fill="#087E8B" font-size="17" font-weight="700" letter-spacing="2.5">NV / FIELD RELIABILITY CONSOLE</text>
-      <circle cx="492" cy="17" r="5" fill="#087E8B" filter="url(#soft-glow)"/>
+      <circle class="live-dot" cx="492" cy="17" r="5" fill="#087E8B" filter="url(#soft-glow)"/>
     </g>
 
     <text x="70" y="154" fill="#172033" font-size="48" font-weight="700">Firmware built for the part</text>
@@ -67,7 +101,8 @@
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <text x="28" y="43" fill="#172033" fill-opacity="0.66" font-size="16" font-weight="700" letter-spacing="2">SIGNAL PATH / LIVE</text>
-      <circle cx="684" cy="38" r="6" fill="#087E8B" filter="url(#soft-glow)"/>
+      <path class="heartbeat" d="M540 38h10l6-11 8 22 8-11h18" fill="none" stroke="#087E8B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle class="live-dot" cx="684" cy="38" r="6" fill="#087E8B" filter="url(#soft-glow)"/>
       <text x="663" y="44" fill="#087E8B" font-size="15" font-weight="700" text-anchor="end">NOMINAL</text>
 
       <path d="M133 155H158" stroke="#087E8B" stroke-width="3" marker-end="url(#arrow-teal)"/>
@@ -98,10 +133,20 @@
         <text x="615.5" y="177">DEPLOYED</text>
       </g>
 
+      <path d="M80 220H615" fill="none" stroke="#087E8B" stroke-opacity="0.14" stroke-width="4" stroke-linecap="round"/>
+      <path class="signal-pulse" d="M80 220H615" fill="none" stroke="#087E8B" stroke-width="4" stroke-linecap="round" filter="url(#soft-glow)"/>
+      <g fill="#087E8B">
+        <circle cx="80" cy="220" r="3"/>
+        <circle cx="204" cy="220" r="3"/>
+        <circle cx="328" cy="220" r="3"/>
+        <circle cx="452" cy="220" r="3"/>
+        <circle cx="615" cy="220" r="3"/>
+      </g>
+
       <rect x="28" y="237" width="679" height="76" rx="14" fill="#B66A00" opacity="0.065"/>
       <rect x="28" y="237" width="679" height="76" rx="14" fill="none" stroke="#B66A00" stroke-opacity="0.52"/>
       <text x="52" y="267" fill="#B66A00" font-size="16" font-weight="700" letter-spacing="1.5">RELIABILITY LAYER</text>
-      <text x="52" y="294" fill="#172033" fill-opacity="0.72" font-size="16">SAFE BOOT  /  WATCHDOG  /  OTA ROLLBACK  /  TELEMETRY</text>
+      <text x="52" y="294" fill="#172033" fill-opacity="0.72" font-size="16">VALIDATED BOOT  /  WATCHDOG  /  OTA ROLLBACK  /  TELEMETRY</text>
       <path d="M650 258l12 12-12 12-12-12z" fill="none" stroke="#B66A00" stroke-width="2"/>
     </g>
   </g>

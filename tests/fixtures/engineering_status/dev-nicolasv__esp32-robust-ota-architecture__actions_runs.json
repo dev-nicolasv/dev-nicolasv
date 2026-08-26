@@ -1,0 +1,13 @@
+{
+  "total_count": 1,
+  "workflow_runs": [
+    {
+      "workflow_id": 202,
+      "name": "firmware-ci",
+      "head_branch": "main",
+      "status": "completed",
+      "conclusion": "success",
+      "run_started_at": "2026-04-22T18:12:00Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+  <title id="title">SAT and EWARS field deployment case study - dark theme</title>
+  <desc id="desc">A technical flow from field sensor through telemetry and real-time monitoring to an operator alert.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.72" stop-color="#0A1627"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.72" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow-cyan" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 4L0 8Z" fill="#22D3EE"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 4L0 8Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 4L0 8Z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1600" height="360" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1598" height="358" rx="23" fill="none" stroke="#22D3EE" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M0 354H1600" stroke="url(#flow)" stroke-width="12"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <g transform="translate(56 34)">
+      <rect width="322" height="32" rx="16" fill="#22D3EE" opacity="0.09"/>
+      <rect width="322" height="32" rx="16" fill="none" stroke="#22D3EE" stroke-opacity="0.32"/>
+      <text x="18" y="22" fill="#22D3EE" font-size="15" font-weight="700" letter-spacing="2">CASE FILE / FIELD DEPLOYED</text>
+    </g>
+    <g transform="translate(1320 35)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <circle cx="0" cy="15" r="6" fill="#22D3EE" filter="url(#glow)"/>
+      <text x="18" y="21" fill="#22D3EE" font-size="15" font-weight="700" letter-spacing="1.5">FIELD PROOF</text>
+    </g>
+
+    <text x="56" y="117" fill="#F6F8FB" font-size="44" font-weight="750">SAT / EWARS</text>
+    <text x="365" y="116" fill="#F6F8FB" fill-opacity="0.66" font-size="21">Early warning and remote monitoring for field operations</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <path d="M356 218H408" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrow-cyan)"/>
+      <path d="M708 218H760" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrow-cyan)"/>
+      <path d="M1060 218H1112" stroke="#2563EB" stroke-width="3" marker-end="url(#arrow-amber)"/>
+
+      <g fill="#22D3EE" fill-opacity="0.065" stroke="#22D3EE" stroke-opacity="0.46" stroke-width="2">
+        <rect x="56" y="169" width="300" height="98" rx="15"/>
+        <rect x="408" y="169" width="300" height="98" rx="15"/>
+      </g>
+      <rect x="760" y="169" width="300" height="98" rx="15" fill="#2563EB" fill-opacity="0.09" stroke="#2563EB" stroke-opacity="0.62" stroke-width="2"/>
+      <rect x="1112" y="169" width="300" height="98" rx="15" fill="#F59E0B" fill-opacity="0.08" stroke="#F59E0B" stroke-opacity="0.62" stroke-width="2"/>
+
+      <g fill="#F6F8FB" font-size="23" font-weight="700" text-anchor="middle">
+        <text x="206" y="210">SENSOR</text>
+        <text x="558" y="210">TELEMETRY</text>
+        <text x="910" y="210">MONITORING</text>
+        <text x="1262" y="210">ALERT</text>
+      </g>
+      <g fill="#F6F8FB" fill-opacity="0.58" font-size="15" text-anchor="middle">
+        <text x="206" y="242">FIELD INPUT</text>
+        <text x="558" y="242">REMOTE LINK</text>
+        <text x="910" y="242">REAL-TIME VIEW</text>
+        <text x="1262" y="242">OPERATOR ACTION</text>
+      </g>
+
+      <rect x="56" y="294" width="1356" height="36" rx="10" fill="#F59E0B" fill-opacity="0.065" stroke="#F59E0B" stroke-opacity="0.28"/>
+      <text x="78" y="318" fill="#F59E0B" font-size="14" font-weight="700" letter-spacing="1.5">EVIDENCE</text>
+      <text x="184" y="318" fill="#F6F8FB" fill-opacity="0.65" font-size="14">REAL-TIME MONITORING  /  OPERATIONAL DEPLOYMENT  /  PUBLIC DEMONSTRATIONS</text>
+    </g>
+  </g>
+</svg>
