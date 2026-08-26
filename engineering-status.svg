@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Field Ops live engineering status</title>
+  <desc id="description">Current GitHub workflow, release, and license signals for the LoRaWAN industrial node and robust OTA reference architecture.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131D"/>
+      <stop offset="0.62" stop-color="#081722"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7DD3FC" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .eyebrow { fill: #67E8F9; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; }
+    .heading { fill: #F8FAFC; font-size: 29px; font-weight: 760; letter-spacing: -0.5px; }
+    .sync { fill: #94A3B8; font-size: 11px; font-weight: 650; letter-spacing: 1.2px; }
+    .panel { fill: #0B1D29; fill-opacity: 0.92; stroke: #244253; stroke-width: 1; }
+    .index { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-weight: 800; letter-spacing: 1px; }
+    .title { fill: #E2E8F0; font-size: 16px; font-weight: 760; letter-spacing: 0.7px; }
+    .path { fill: #91A4B7; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 520; letter-spacing: 0.35px; }
+    .classify { fill: #CBD5E1; font-size: 10px; font-weight: 750; letter-spacing: 1.5px; }
+    .updated { fill: #64748B; font-size: 9px; font-weight: 650; letter-spacing: 0.75px; }
+    .pill { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; font-weight: 750; letter-spacing: 0.75px; }
+    .footer { fill: #64748B; font-size: 10px; font-weight: 520; letter-spacing: 0.4px; }
+    .pulse-dot { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.2); } }
+    @media (prefers-reduced-motion: reduce) { .pulse-dot { animation: none; } }
+  </style>
+  <rect width="1200" height="390" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="390" rx="22" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1199" height="389" rx="21.5" fill="none" stroke="#214153"/>
+  <text x="36" y="35" class="eyebrow">DEV-NICOLASV / PUBLIC ENGINEERING SIGNAL</text>
+  <text x="36" y="72" class="heading">FIELD OPS / LIVE</text>
+  <g transform="translate(900 35)">
+    <circle cx="0" cy="-4" r="5" fill="#2DD4BF" class="pulse-dot"/>
+    <text x="17" y="0" class="sync">PUBLIC DATA</text>
+    <text x="264" y="0" text-anchor="end" class="sync">SYNC 2026-08-25 UTC</text>
+  </g>
+  <path d="M36 91 H1164" stroke="#244253"/>
+  <g transform="translate(36 112)">
+    <rect width="1128" height="106" rx="16" class="panel"/>
+    <rect width="4" height="58" x="0" y="24" rx="2" fill="#22D3EE"/>
+    <text x="28" y="32" class="index" fill="#22D3EE">01</text>
+    <text x="78" y="34" class="title">LORAWAN INDUSTRIAL NODE</text>
+    <text x="78" y="61" class="path">4-20 mA -&gt; ADC -&gt; ESP32 -&gt; LoRaWAN</text>
+    <text x="1050" y="32" text-anchor="end" class="classify">FIELD NODE</text>
+    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 22 APR 2026</text>
+    <g transform="translate(78 70)"><rect width="138" height="30" rx="8" fill="#2DD4BF" fill-opacity="0.11" stroke="#2DD4BF" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#2DD4BF">CI  PASS</text></g>
+    <g transform="translate(230 70)"><rect width="258" height="30" rx="8" fill="#22D3EE" fill-opacity="0.11" stroke="#22D3EE" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#22D3EE">RELEASE  release-pro-v1.0.0</text></g>
+    <g transform="translate(502 70)"><rect width="226" height="30" rx="8" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#A78BFA">MIT</text></g>
+    <circle cx="1082" cy="85" r="5" fill="#2DD4BF" class="pulse-dot"/>
+  </g>
+  <g transform="translate(36 236)">
+    <rect width="1128" height="106" rx="16" class="panel"/>
+    <rect width="4" height="58" x="0" y="24" rx="2" fill="#F59E0B"/>
+    <text x="28" y="32" class="index" fill="#F59E0B">02</text>
+    <text x="78" y="34" class="title">ROBUST OTA ARCHITECTURE</text>
+    <text x="78" y="61" class="path">CONTROL || UPDATE -&gt; SHA-256 -&gt; A/B -&gt; ROLLBACK</text>
+    <text x="1050" y="32" text-anchor="end" class="classify">REFERENCE</text>
+    <text x="1050" y="61" text-anchor="end" class="updated">UPDATED 22 APR 2026</text>
+    <g transform="translate(78 70)"><rect width="138" height="30" rx="8" fill="#2DD4BF" fill-opacity="0.11" stroke="#2DD4BF" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#2DD4BF">CI  PASS</text></g>
+    <g transform="translate(230 70)"><rect width="258" height="30" rx="8" fill="#F59E0B" fill-opacity="0.11" stroke="#F59E0B" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#F59E0B">RELEASE  v1.0.0</text></g>
+    <g transform="translate(502 70)"><rect width="226" height="30" rx="8" fill="#A78BFA" fill-opacity="0.11" stroke="#A78BFA" stroke-opacity="0.42"/><text x="14" y="20" class="pill" fill="#A78BFA">LICENSE PENDING</text></g>
+    <circle cx="1082" cy="85" r="5" fill="#2DD4BF" class="pulse-dot"/>
+  </g>
+  <text x="36" y="374" class="footer">Statuses derived from public GitHub metadata · generated by a bounded repository workflow</text>
+</svg>
