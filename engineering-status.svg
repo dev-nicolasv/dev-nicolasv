@@ -36,7 +36,7 @@
   <g transform="translate(900 35)">
     <circle cx="0" cy="-4" r="5" fill="#2DD4BF" class="pulse-dot"/>
     <text x="17" y="0" class="sync">PUBLIC DATA</text>
-    <text x="264" y="0" text-anchor="end" class="sync">SYNC 2026-08-26 UTC</text>
+    <text x="264" y="0" text-anchor="end" class="sync">SYNC 2026-08-31 UTC</text>
   </g>
   <path d="M36 91 H1164" stroke="#244253"/>
   <g transform="translate(36 112)">
